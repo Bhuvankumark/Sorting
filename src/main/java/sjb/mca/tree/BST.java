@@ -71,8 +71,8 @@ public class BST {
         b.insert(50);
         b.insert(70);
 
-        b.inorder();    // Expected: 10 20 30 40 50 60 70
-        b.preorder();   // Expected: 40 20 10 30 60 50 70
-        b.postorder();  // Expected: 10 30 20 50 70 60 40
+        b.inorder();   
+        b.preorder();   
+        b.postorder();  
     }
 }
