@@ -1,11 +1,14 @@
+
 package sjb.mca.tree;
 
-class TreeNode {
-    int data;
-    TreeNode left, right;
-
-    TreeNode(int value) {
-        data = value;
-        left = right = null;
-    }
+public class TreeNode 
+{
+	int data;
+	TreeNode left,right;
+	TreeNode(int value)
+	{
+		this.data=value;
+		this.left=right=null;
+	}
+	
 }
